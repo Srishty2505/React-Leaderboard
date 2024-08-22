@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.main p {
+    display: none;
+}
+
+.main p.active {
+    display: block;
+}
+
+.round
+{
+    transform: rotate(180deg) ;
+}

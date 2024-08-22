@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+width: 100%;
+height: 60px;
+color: black;
+background-color: lightseagreen;
+/* padding: 10px; */
+display: flex;
+justify-content: space-between;
+text-align: center;
+}
+.header ul
+{
+    display: flex;
+    list-style: none;
+}
+.header a
+{
+    text-decoration: none;
+    padding: 8px 8px;
+}
+.header h1
+{
+margin: 10px;
+}
+.slider
+{
+    width: 100%;
+    margin-top: 20px;
+}
+.slider img
+{
+    width: 100%;
+    height: 100vh;
+}
+
+.content
+{
+    text-align: center;
+    margin: 200px;  
+}
+.footer
+{
+    text-align: center;
+    background-color: lightseagreen;
+    width: 100%;
+    color: black;
+    height: 50px;padding-top: 10px;
+}
+.boxes
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.boxes .first
+{
+    height: 200px;
+    width: 200px;
+    border: black solid 2px;
+    margin: 10px;
+
+}
+.boxes .second
+{
+    height: 200px;
+    width: 200px;
+    border: black solid 2px;
+    margin: 10px;
+
+}
+.boxes .third
+{
+    height: 200px;
+    width: 200px;
+    border: black solid 2px;
+    margin: 10px;
+
+}.boxes .fourth
+{
+    height: 200px;
+    width: 200px;
+    border: black solid 2px;
+    margin: 10px;
+}
+.cardoneimage
+{
+    width: 300px;
+    height: 200px;
+}
+.cardoneimage img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
